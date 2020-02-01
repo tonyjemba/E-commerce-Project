@@ -11,7 +11,7 @@ function App() {
 		<div>
 			<div className="scrollover">
 			<Navbar />
-
+   {/* for switching screens */}
 				<HomeScreen/>
 			{/* <CartScreen/> */}
 			</div>
