@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1000px) 
+{
+    .hpgridContainer{
+        background-color: cyan;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 550px 550px 550px;
+        grid-gap: 2%;
+    
+          
+      }
+}
+@media only screen and (max-width: 780px) 
+{
+    .hpgridContainer{
+        background-color: cyan;
+        display:grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 500px 500px 500px 500px;
+        /* grid-gap: 4%; */
+        
+          
+      }
+}
+
+
+/* mobilePhones */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .menu-item {
+     
+      margin: 5px 10px;
+      height: 324px;
+      cursor: pointer;
+      width: 200px;
+      position: relative;
+     padding: 0px;
+    }
+    .scroll-menu-arrow {
+      cursor: pointer;
+    }
+    .arrow-next{
+      font-size: 15px !important;
+    }
+    .arrow-prev{
+      font-size: 15px  !important;
+    }
+    
+}

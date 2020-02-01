@@ -1,0 +1,32 @@
+.imgsize{
+    background-color: darkgreen;
+    height: 67%;
+    width: 100%;
+}
+.het{
+    height: 10%;
+}
+.wid{
+    width: 25%;
+}
+.circle{
+    width: 30px;
+   height: 30px;
+   border-radius: 15px;
+}
+.miwid{
+    width: 27%;
+}
+.botm{
+    height: 12%;
+    bottom: 0;
+}
+.f{
+    font-size: 15px;
+}
+.fD{
+    font-size: 12px;
+}
+.phoneEye{
+    display: none;
+}

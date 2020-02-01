@@ -1,0 +1,28 @@
+.ssm{
+    display: grid;
+    grid-template-columns: repeat(6, 195px);
+    grid-template-rows: 195px;
+    justify-content: center;
+   padding-bottom: 4%;
+}
+.showt{
+    visibility: hidden;
+}
+.one{
+ background-color: deeppink;
+}
+.two{
+    background-color: darkorange;
+   }
+.three{
+    background-color: lime;
+   }
+.four{
+    background-color: gray;
+   }
+.five{
+    background-color: darkorange;
+   }
+.six{
+    background-color: red;
+   }

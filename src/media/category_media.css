@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1200px) 
+{
+  .gridContainer{
+    display: grid;
+   grid-template-columns: 350px 350px 350px;
+   grid-auto-rows: 269px;
+   /* margin-left: 2%; */
+   /* margin-right: 2%; */
+   grid-gap: 2%;
+   justify-content: center;
+   
+  }
+}
+
+@media only screen and (max-width: 1118px) 
+{
+  .gridContainer{
+    display: grid;
+   grid-template-columns: 296px 296px 296px;
+   grid-auto-rows: 216px;
+   /* margin-left: 2%; */
+   /* margin-right: 2%; */
+   grid-gap: 2%;
+   justify-content: center;
+   
+  }
+}
+@media only screen and (max-width: 950px) 
+{
+  .gridContainer{
+    display: grid;
+   grid-template-columns: 226px 226px 226px;
+   grid-auto-rows: 165px;
+   /* margin-left: 2%; */
+   /* margin-right: 2%; */
+   grid-gap: 2%;
+   justify-content: center;
+   
+  }
+}
+@media only screen and (max-width: 730px) 
+{
+  .gridContainer{
+    display: grid;
+   grid-template-columns: 159px 159px 159px;
+   grid-auto-rows: 116px;
+   /* margin-left: 2%; */
+   /* margin-right: 2%; */
+   grid-gap: 2%;
+   justify-content: center;
+   
+  }
+}
+@media only screen and (max-width: 500px) 
+{
+    .gridContainer{
+        display: grid;
+       grid-template-columns: repeat(1,463px);
+        grid-template-rows: 400px 400px 400px;
+      }
+}
+
+/* mobilePhones */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .gridContainer{
+      display: grid;
+     grid-template-columns: repeat(1,300px);
+      grid-template-rows: 218px 218px 218px;
+      justify-content: center;
+      
+    }
+}

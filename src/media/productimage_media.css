@@ -1,0 +1,27 @@
+/* mobilePhones */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+   
+    .botm{
+        height: 20%;
+        bottom: 0;
+    }
+    
+.f{
+    font-size: 13px;
+}
+.fD{
+    font-size: 10px;
+}
+.phoneEye{
+    display: block;
+}
+.pho_hide{
+    visibility: hidden;
+}
+}

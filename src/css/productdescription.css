@@ -1,0 +1,13 @@
+.containerSize{
+    height: 36%;
+    width: 100%;
+    /* background-color: darkmagenta; */
+    margin-top: 4%;
+    margin-bottom: 0px;
+}
+.cart_btn{
+    font-Size:'15px';
+}
+.mgt{
+    margin-top: 5px;
+}

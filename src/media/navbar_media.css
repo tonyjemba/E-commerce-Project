@@ -1,0 +1,80 @@
+
+@media only screen 
+  and (max-width: 1110px) 
+ { 
+
+    .hchild{
+      position: fixed;
+      top:0;
+      width: 100%;
+      height: 10%;
+      background-color: #ffffff;
+      z-index:2;
+  }
+  .hidden{
+     display:none;
+  }
+  .vanish{
+    display: none;
+  }
+  .show{
+    display:block;
+  }
+}
+
+@media only screen 
+  and (max-width: 1091px) 
+ { 
+.width{
+  width:18%
+}
+}
+@media only screen 
+  and (max-width: 660px) 
+ { 
+.width{
+  width:23%
+}
+}
+
+
+
+/* mobilePhones */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .hchild{
+        position: fixed;
+        top:0;
+        width: 100%;
+        /* height: 10%; */
+        /* background-color: yellow; */
+        z-index:2;
+        margin: 0px;
+       
+    }
+    .logoSize{
+      font-size: large;
+      margin-left: 10px;
+    }
+    
+    .hidden{
+      display: none;
+      /* background-color: blue; */
+    }
+    .vanish{
+      display: none;
+      z-index: -1;
+    }
+    .width{
+      width:20%
+    }
+    .dsktpwid{
+      width: 53%;
+      margin-left: 0px;
+  }
+}

@@ -1,0 +1,33 @@
+
+/* mobilePhones */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    
+    .ght{
+        height: 11%;
+    }
+    .containerSize{
+        height: 45%;
+        width: 100%;
+        /* background-color: darkmagenta; */
+        margin-top: 3%;
+    }
+    .phonfont{
+        font-size: smaller !important; 
+    }
+    .phoneNO{
+        visibility: hidden;
+    }
+    .mgt{
+        margin-top: 0px;
+    }
+    .ghtphone{
+        margin-top: 4px;
+        height: 14%;
+    }
+}

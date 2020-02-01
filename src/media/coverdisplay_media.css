@@ -1,0 +1,40 @@
+@media only screen and (max-width: 930px) 
+{
+    .btn_alignmt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .wdth{
+        width: 80%;
+    }
+    .style4{
+        margin-top: 5%;
+    }
+}
+
+/* mobilePhones */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    
+    .btn_alignmt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 80%;
+    }
+    .wdth{
+        width: 100%;
+    }
+    .style4{
+        margin-top: 5%;
+    }
+    
+}

@@ -1,0 +1,27 @@
+.fcontainer{
+    /* background-color: lightblue; */
+    width: 100%;
+    height: 80vh;
+    position:-webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    z-index: 0;
+    /* text-align: center; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-items: flex-start;
+    flex-direction: column;
+}
+.loheight{
+    height: 88%;
+}
+.loh{
+    height: 12%;
+}
+.bgc,:hover{
+    border-color: black ;
+}
+.input:focus{
+    border-color: black ;
+}

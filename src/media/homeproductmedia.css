@@ -1,0 +1,156 @@
+
+
+@media only screen and (min-width:1342px){
+    .items_Style{
+        height: 520px;
+        width: 297px;
+        
+    }
+}
+/* mobilePhones */
+
+/* Portrait */
+ @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 334px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+   
+    .items_Style{
+        height: 400px;
+        width: 160px;
+        
+    }
+    .ingrid{
+    
+        width: 95%;
+        
+    
+    }
+} 
+@media only screen 
+  and (min-device-width: 335px) 
+  and (max-device-width: 350px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+   
+    .items_Style{
+        height: 400px;
+        width: 167px;
+        
+    }
+    .ingrid{
+    
+        width: 95%;
+        
+    
+    }
+}
+@media only screen 
+  and (min-device-width: 351px) 
+  and (max-device-width: 365px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+   
+    .items_Style{
+        height: 400px;
+        width: 174.7px;
+        
+    }
+    .ingrid{
+    
+        width: 95%;
+        
+    
+    }
+}
+@media only screen 
+  and (min-device-width: 366px) 
+  and (max-device-width: 380px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+   
+    .items_Style{
+        height: 400px;
+        width: 181.8px;
+        
+    }
+    .ingrid{
+    
+        width: 95%;
+        
+    
+    }
+}
+@media only screen 
+  and (min-device-width: 381px) 
+  and (max-device-width: 395px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+   
+    .items_Style{
+        height: 400px;
+        width: 188.9px;
+        
+    }
+    .ingrid{
+    
+        width: 95%;
+        
+    
+    }
+}
+@media only screen 
+  and (min-device-width: 396px) 
+  and (max-device-width: 420px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+   
+    .items_Style{
+        height: 400px;
+        width: 420.1px;
+        
+    }
+    .ingrid{
+    
+        width: 95%;
+        
+    
+    }
+}
+@media only screen 
+  and (min-device-width: 421px) 
+  and (max-device-width: 440px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+   
+    .items_Style{
+        height: 400px;
+        width: 207.8px;
+        
+    }
+    .ingrid{
+    
+        width: 95%;
+        
+    
+    }
+}
+@media only screen 
+  and (min-device-width: 441px) 
+  and (max-device-width: 452px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+   
+    .items_Style{
+        height: 400px;
+        width: 217.3px;
+        
+    }
+    .ingrid{
+    
+        width: 95%;
+        
+    
+    }
+}

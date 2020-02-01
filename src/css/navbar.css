@@ -1,0 +1,68 @@
+.hparent{
+    top: 0;
+    width: 100%;
+    /* height: 5rem; */
+}
+.hchild{
+    /* background-color:red; */
+    /* height: 10%; */
+    /* display: flex; */
+    /* position: relative; */
+    /* margin: 0; */
+    /* width: 70%; */
+}
+.hchild2{
+    /* background-color: aqua; */
+    /* height: 25%;  */
+    padding-bottom: 0.5%;
+    
+}  
+.logoSize{
+    font-size: 25px;
+}
+.ontop{
+    position: absolute;
+    z-index: 2;
+}
+.width{
+    width:10%
+}
+.dsktpwid{
+    width: 30%;
+}
+.myfs{
+    font-size: medium;
+}
+.show{
+    display: none;
+}
+.spin1 > img {
+    display: block; /* removes bottom margin/whitespace */
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+  }
+  
+  .spin1:hover > img {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+ .ant-select-selection.ant-select-selection--single{
+    border-width: 0px;
+    border: none;
+    box-shadow: none;
+ }
+ .ant-select-selection-selected-value{
+     font-size: 14px;
+ }
+ .ant-select-dropdown-menu-item{
+     font-size: 11px;
+     padding-left: 5px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+ }
+ .ant-select-selection__rendered{
+     padding: 0px;
+     margin: 0px;
+     width: 50px;
+     max-width: 50px;
+ }

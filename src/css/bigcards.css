@@ -1,0 +1,13 @@
+.advert{
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-template-rows: 420px;
+    grid-gap: 2%;
+    justify-content: center;
+}
+.spacing{
+    /* margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%; */
+
+}

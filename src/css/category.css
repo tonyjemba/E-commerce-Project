@@ -1,0 +1,11 @@
+.gridContainer{
+    display: grid;
+   grid-template-columns: 369px 396px 369px;
+   grid-auto-rows: 269px;
+   /* margin-left: 2%; */
+   /* margin-right: 2%; */
+   grid-gap: 2%;
+   justify-content: center;
+   
+  }
+ 

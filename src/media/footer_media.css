@@ -1,0 +1,23 @@
+@media only screen
+and (min-device-width: 350px)  
+ and (max-width: 1080px) 
+   {
+       .goes{
+           display:none;
+           background-color:blue
+       }
+}
+
+/* mobilePhones */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  
+   .goes{
+          display: none; 
+       }
+}

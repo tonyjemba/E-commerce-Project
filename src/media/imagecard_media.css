@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1118px) 
+                  and (min-width:501px)
+{
+  .disaper{
+    visibility: hidden !important
+  }
+  .stopanime, ::before, ::after {
+    transition-property: none !important;
+    transform: none !important;
+    animation: none !important;
+  }
+}
+@media only screen and (max-width: 730px) 
+{
+  .stopanime{
+    height: 17%;
+  }
+  
+}
+@media only screen and (max-width: 500px) 
+{
+  .stopanime{
+    height: 10%;
+  }
+  
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+   
+    .pad1{
+        padding: 0;
+    }
+}

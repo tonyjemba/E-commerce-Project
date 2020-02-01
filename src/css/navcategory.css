@@ -1,0 +1,14 @@
+.navcat{
+    display: grid;
+    grid-template-columns: 185px 185px 185px 185px 190px ;
+    grid-template-rows: 450px;
+    grid-gap: 2%;
+    
+    position: relative;
+    width: 100%;
+    z-index: 100;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    
+}

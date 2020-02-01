@@ -1,0 +1,20 @@
+.itemStyle{
+    padding: 0 40px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .scroll-menu-arrow {
+    /* padding: 20px; */
+    cursor: pointer;
+  }
+  .arrow-prev{
+    font-size: 20px;
+
+  }
+  .arrow-next{
+    font-size: 20px;
+    
+  }

@@ -1,0 +1,26 @@
+.size{
+    
+    background-color: deeppink;
+    position: relative;
+    /* width: 369px; */
+}
+.pad1{
+  padding: 3px;
+}
+.cat-selection{
+position: absolute;
+width: 90%;
+height: 90%;
+left: 5%;
+
+  top: 5%;
+  
+}
+.cat-name{
+position: absolute;
+width: 90%;
+height: 12%;
+left: 5%;
+top:80%;
+}
+

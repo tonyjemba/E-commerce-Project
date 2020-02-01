@@ -1,0 +1,11 @@
+.btn_alignmt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 59%;
+}
+.wdth{
+    width: 40%;
+}
+
+
