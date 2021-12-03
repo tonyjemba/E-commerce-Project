@@ -4,7 +4,7 @@ import {Divider} from 'antd';
 import ListComponent from '../containers/ListComponent'
 
 const Men = ({show,hide}) => {
-    if(show){
+    if(show === true){
         return(
             <div>
                 <div className="men_ct animated fadeIn faster bg-white" onMouseLeave={hide}>
