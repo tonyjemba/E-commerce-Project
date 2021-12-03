@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Icon} from 'antd';
-import '../css/productimage.css'
-import '../media/productimage_media.css'
+import '../css/productimage.css';
+import '../media/productimage_media.css';
 
 
 const ProductImage = ({imgArray}) =>{
