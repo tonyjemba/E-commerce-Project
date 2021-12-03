@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/coverdisplay.css';
-import '../media/coverdisplay_media.css'
+import '../media/coverdisplay_media.css';
 
 const CoverDisplay = () => {
     return(
