@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import { CountryDropdown, RegionDropdown, CountryRegionData } from 'react-country-region-selector';
-import '../css/CartScreen.css'
+import '../css/CartScreen.css';
 
 class CartScreen extends Component{
 
@@ -13,7 +13,7 @@ class CartScreen extends Component{
       }
 
       handleZipCode = (event) => {
-		this.setState({zipcode: event.target.value})
+		this.setState({zipcode: event.target.value});
 	}  
   selectCountry  = (val) => {
     this.setState({ country: val });
