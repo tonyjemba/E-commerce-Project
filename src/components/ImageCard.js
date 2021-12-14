@@ -2,7 +2,7 @@ import React from 'react';
 import ListComponent from '../containers/ListComponent';
 import styled from 'styled-components';
 import '../css/imagecard.css';
-import '../media/imagecard_media.css'
+import '../media/imagecard_media.css';
 
 const ImageCard = ({ image, links, category }) => {
 	return (
@@ -21,7 +21,7 @@ const ImageCard = ({ image, links, category }) => {
 };
 
 const HoverEffects = styled.div`
-
+//styled components
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
