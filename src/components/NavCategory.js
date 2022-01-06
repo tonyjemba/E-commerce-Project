@@ -1,12 +1,13 @@
 import React from 'react';
 import '../css/navcategory.css';
 import {Divider} from 'antd';
-import ListComponent from '../containers/ListComponent'
+import ListComponent from '../containers/ListComponent';
 
 const NavCategory = ({show,hide}) => {
-   if(show){
+   if(show === true){
     return(
         <div>
+       //zoom in on hover
             <div className="navcat animated fadeIn faster bg-white" onMouseLeave={hide}>
             <div >
             <div className=" flex flex-column ">
