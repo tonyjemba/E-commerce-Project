@@ -8,8 +8,8 @@ export default class Size extends Component {
 		};
 	}
 	render() {
-		//sizes props only accepts a string array of sizes
-		let sizeOptions = this.state.sizes.map((size, index) => (
+		
+		let sizes = this.state.sizes.map((size, index) => (
 			<div
 				key={index}
 				style={{
@@ -24,6 +24,6 @@ export default class Size extends Component {
 			</div>
 		));
 
-		return <div className="flex flex-row justify-around pointer ">{sizeOptions}</div>;
+		return <div className="flex flex-row justify-around pointer ">{sizes}</div>;
 	}
 }
